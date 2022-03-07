@@ -15,6 +15,7 @@ Take a look at the following code:
 ```
 
 Explain why line 4 and line 6 output different numbers.
+x on line 4 is defined inside the function, so in it not accessible outside of it. Console.log on line 7 does not 'see' inside the function so it logs 1.
 
 ## Question 2
 
@@ -34,6 +35,7 @@ console.log(y)
 ```
 
 What will be the output of this code. Explain your answer in 50 words or less.
+The console.log on line 33 will output 10, and the console.log on line 34 is undefined, because y is defined inside the function.
 
 ## Question 3
 
@@ -62,3 +64,6 @@ console.log(y);
 ```
 
 What will be the output of this code. Explain your answer in 50 words or less.
+The console.log on line 53 will print 9, because we are not calling the function, we are just returning the x that was defined on line 45, if we would console.log the function console.log(f2(y)) it would be x would be 10.
+
+For the console.log on line 63, val is an object, val.x is 9 and than 10, when val is returned on line 59 it will print {x:10}.
