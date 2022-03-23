@@ -78,7 +78,6 @@ function GryffindorHousePeople(array) {
     }
   }
 }
-console.log(GryffindorHousePeople(hogwarts));
 
 function teachersWithPets(array) {
   for (object of array) {
@@ -88,7 +87,6 @@ function teachersWithPets(array) {
     }
   }
 }
-console.log(teachersWithPets(hogwarts));
 
 //////live coding example///////
 // function inGriff(school){
