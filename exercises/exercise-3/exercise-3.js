@@ -11,12 +11,8 @@ function printOrder(array) {
   let total = 0;
   for (object of array) {
     let { itemName, quantity, unitPrice } = object;
-    console.log(
-      object.quantity,
-      object.itemName,
-      (object.quantity * object.unitPrice).toFixed(2)
-    );
-    total += object.quantity * object.unitPrice;
+    console.log(quantity, itemName, (quantity * unitPrice).toFixed(2));
+    total += quantity * unitPrice;
   }
   console.log(`Total: ${total}`);
 }

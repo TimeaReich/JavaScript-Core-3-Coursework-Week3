@@ -70,15 +70,15 @@ let hogwarts = [
     occupation: "Teacher",
   },
 ];
-// function GryffindorHousePeople(array) {
-//   for (object of array) {
-//     let { firstName, lastName, house } = object;
-//     if (house === "Gryffindor") {
-//       console.log(`${firstName} ${lastName}`);
-//     }
-//   }
-// }
-// console.log(GryffindorHousePeople(hogwarts));
+function GryffindorHousePeople(array) {
+  for (object of array) {
+    let { firstName, lastName, house } = object;
+    if (house === "Gryffindor") {
+      console.log(`${firstName} ${lastName}`);
+    }
+  }
+}
+console.log(GryffindorHousePeople(hogwarts));
 
 function teachersWithPets(array) {
   for (object of array) {
@@ -89,3 +89,11 @@ function teachersWithPets(array) {
   }
 }
 console.log(teachersWithPets(hogwarts));
+
+//////live coding example///////
+// function inGriff(school){
+//   school.forEach(person=>{
+//     const {firstName,lastName,house}=person
+//     if(house===Gryffindor) console.log(firstName+''+lastName)
+//   })
+// }

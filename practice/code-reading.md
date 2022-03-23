@@ -35,7 +35,7 @@ console.log(y)
 ```
 
 What will be the output of this code. Explain your answer in 50 words or less.
-The console.log on line 33 will output 10, and the console.log on line 34 is undefined, because y is defined inside the function.
+The console.log on line 33 will output undefined because the function doesn't return anything, and the console.log on line 34 is undefined, because y is defined inside the function.
 
 ## Question 3
 
